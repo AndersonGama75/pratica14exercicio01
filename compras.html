@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Prática 14 - Exercício 01</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">    
+  </head>
+  <body>
+    <!-- <h1 class="bg-danger">Olá, mundo!</h1> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      
+      <img src="img/logo06.png"/>
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="pratica14exercicio01.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="moda.html">Moda</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="equipamentos.html">Equipamentos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="acessorios.html">Acessórios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pesos.html">Pesos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="compras.html">Compras</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">
+                Social
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Facebook</a>
+                <a class="dropdown-item" href="#">Twitter</a>
+                <a class="dropdown-item" href="#">Instagram</a>
+              </div>
+            </li>
+            
+          </ul>
+
+          <form class="form-inline">
+            <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar.." />
+            <button class="btn btn-default" type="submit">Ok</button>
+          </form>
+        </div>
+      </div>
+      
+    </nav>
+
+    
+
+    <!-- Formulário -->
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-12 text-center my-5">
+          
+          <h1 class="display-4"><i class="far fa-handshake text-danger"></i> Cadastre-se e compre:</h1>
+
+        </div>
+        
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          
+          <form>
+            
+            <div class="form-row">
+
+              <div class="form-group col-sm-6">
+              
+                <label for="inputNome">Seu nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome" />
+
+              </div>
+
+              <div class="form-group col-sm-6">
+                
+                <label for="inputSobrenome">Seu sobrenome</label>
+                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome" />
+
+              </div>
+
+            </div>
+
+            <div class="form-row">            
+
+              <div class="form-group col-sm-12">
+                
+                <label for="inputEndereco">Seu endereço</label>
+                <input type="text" class="form-control" id="inputEndereco" placeholder="Endereço completo" />
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-sm-6">
+                
+                <label for="inputCidade">Sua cidade</label>
+                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade" />
+
+              </div>
+
+              <div class="form-group col-sm-4">
+                
+                <label for="inputEstado">Seu estado</label>
+                <select id="inputEstado" class="form-control">
+                  <option selected>Escolha..</option>
+                  <option>Minas Gerais</option>
+                  <option>Rio de Janeiro</option>
+                  <option>São Paulo</option>
+                </select>
+
+              </div>
+
+              <div class="form-group col-sm-2">
+                
+                <label for="inputCep">Seu cep</label>
+                <input type="text" id="inputCep" class="form-control" placeholder="Cep" />
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+              
+              <div class="form-group col-sm-12">
+                
+                <div class="form-check">
+                  
+                  <label class="form-check-label">
+
+                    <input class="form-check-input" type="checkbox" /> Desejo receber novidades por e-mail
+
+                  </label>
+
+                </div>
+
+              </div>
+
+              
+            </div>
+
+            <div class="form-row">
+              
+              <div class="form-group col-sm-12">
+                
+                <button type="submit" class="btn btn-danger">Enviar</button>
+
+                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Receber novidades?!" data-content="Caso opte por receber novidades e promoções, a qualquer momento você poderá desfazer essa ação nas configurações de privaciade de sua conta.">Ajuda</a>
+
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+
+    <!-- Tabela -->
+
+    <h1 class="display-4 text-center my-5"><i class="fas fa-cart-arrow-down text-danger"></i> Frete:</h1>
+
+    <div class="container">
+      
+      
+      <table class="table table-bordered table-striped">
+        <tr>
+          <th>Região</th>
+          <th>Cidade</th>
+          <th>Preço</th>
+        </tr>
+        <tr>
+          <td>Sudeste</td>
+          <td>Capitais</td>
+          <td>30% de desconto nas compras acima de R$ 800,00</td>
+        </tr>
+        <tr>
+          <td>Sul</td>
+          <td>Capitais</td>
+          <td>30% de desconto nas compras acima de R$ 1.000,00</td>
+        </tr>
+        <tr>
+          <td>Centro-Oeste</td>
+          <td>Capitais e Distrito Federal</td>
+          <td>30% de desconto nas compras acima de R$ 1.200,00</td>
+        </tr>
+        <tr>
+          <td>Nordeste</td>
+          <td>Capitais</td>
+          <td>30% de desconto nas compras acima de R$ 1.500,00</td>
+        </tr>
+        <tr>
+          <td>Norte</td>
+          <td>Capitais</td>
+          <td>30% de desconto nas compras acima de R$ 1.800,00</td>
+        </tr>
+      </table>
+
+    </div>
+
+ 
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Script que faz funcionar o botão de ajuda 'popover' -->
+    <script>
+
+      $(function() {
+
+        $('[data-toggle="popover"]').popover()
+
+      })
+
+    </script>
+
+  </body>
+</html>

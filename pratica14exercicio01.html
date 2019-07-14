@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Prática 14 - Exercício 01</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">    
+  </head>
+  <body>
+    <!-- <h1 class="bg-danger">Olá, mundo!</h1> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      
+      <img src="img/logo06.png"/>
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="pratica14exercicio01.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="moda.html">Moda</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="equipamentos.html">Equipamentos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="acessorios.html">Acessórios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pesos.html">Pesos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="compras.html">Compras</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">
+                Social
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Facebook</a>
+                <a class="dropdown-item" href="#">Twitter</a>
+                <a class="dropdown-item" href="#">Instagram</a>
+              </div>
+            </li>
+            
+          </ul>
+
+          <form class="form-inline">
+            <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar.." />
+            <button class="btn btn-default" type="submit">Ok</button>
+          </form>
+        </div>
+      </div>
+      
+    </nav>
+
+    <!-- Carousel -->
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="carouselSite" data-slide-to="1"></li>
+        <li data-target="carouselSite" data-slide-to="2"></li>
+      </ol>
+      
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">   <!-- 'active' pois esta é a imagem que começará. -->
+          
+          <a href="moda.html"><img src="img/img01.jpg" class="img-fluid d-block" /></a>
+
+          <div class="carousel-caption d-none d-sm-block">   <!-- 'd-none d-sm-block' bloqueia a legenda, liberando-a apenas para telas maiores que 'sm', ou seja, 'small'. -->
+            <h3>Moda Fitness</h3>
+            <p>Leggings, tops, shorts, camisetas, tênis.</p>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <a href="pesos.html"><img src="img/img02.jpg" class="img-fluid d-block" /></a>
+
+          <div class="carousel-caption d-none d-sm-block">
+            <h3>Pesos</h3>
+            <p>Barra Olímpica maciça 200cm.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          
+          <a href="acessorios.html"><img src="img/img03.jpg" class="img-fluid d-block" /></a>
+
+          <div class="carousel-caption d-none d-sm-block">
+            <h3>Acessórios</h3>
+            <p>Corda de pular PVC.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Posterior</span>
+      </a>
+
+    </div>
+
+    <!-- Cards -->
+
+    <h1 class="display-4 text-center my-5"><i class="fas fa-cart-arrow-down text-danger"></i> Promoções</h1>
+    <div class="row mb-5">
+      
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="img/img04.jpg" />
+          <div class="card-body">
+            <h4 class="card-title">Moda Fitness</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Promoção</h6>
+            <p class="card-text">Conjunto preto Top e Short</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class='list-group-item'>- Tecido suplex liso</li>
+            <li class='list-group-item'>- Short com cós estreito de perfeito ajuste</li>
+            <li class='list-group-item'>- Top com alça nadador</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal01">Detalhes</a>
+            <a href="moda.html" class="card-link">Moda Fitness</a>
+          </div>
+          <div class="card-footer text-muted">
+            Uma infinidade de peças com ótimos preços.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="img/img05.jpg" />
+          <div class="card-body">
+            <h4 class="card-title">Equipamentos</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Promoção</h6>
+            <p class="card-text">Halteres de 40kg</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class='list-group-item'>- 1 barra 120cm</li>
+            <li class='list-group-item'>- 2 anilhas de 20kg</li>
+            <li class='list-group-item'>- Anilhas de ferro maciço</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal02">Detalhes</a>
+            <a href="pesos.html" class="card-link">Pesos</a>
+          </div>
+          <div class="card-footer text-muted">
+            Equipamentos e acessórios variados com ótimos preços.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="img/img06.jpg" />
+          <div class="card-body">
+            <h4 class="card-title">Moda Fitness</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Promoção</h6>
+            <p class="card-text">Conjunto Legging & Top Fitness estampado</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class='list-group-item'>- Tecido suplex estampado</li>
+            <li class='list-group-item'>- Tecido não transparente</li>
+            <li class='list-group-item'>- Essas peças trazem conforto e segurança para os movimentos</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal03">Detalhes</a>
+            <a href="moda.html" class="card-link">Moda Fitness</a>
+          </div>
+          <div class="card-footer text-muted">
+            Uma infinidade de peças com ótimos preços.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <!-- Modal -->
+
+    <div class="modal fade" id="siteModal01" tabindex="-1" role="dialog">
+      
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Detalhes do Produto:</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Conjunto fitness é prático e deixa o look harmonioso. Confeccionado e tecido suplex liso, este modelo possui short com cós estreito de perfeito ajuste ao corpo e top com alça nadador. Ideal para atividades ao ar livre. Para ficar ainda mais linda, combine com acessórios da moda SportTrainning.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="modal fade" id="siteModal02" tabindex="-1" role="dialog">
+      
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Detalhes do Produto:</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Barra de 1,20m em Aço Tubular 1020 com Pintura Eletrostática na pegada e Presilhas. Anilhas de Ferro Fundido pintadas na cor preta (2 x 20kg).</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="modal fade" id="siteModal03" tabindex="-1" role="dialog">
+      
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Detalhes do Produto:</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Belíssimo conjunto Top & Legging estampado. A modelo da foto está vestindo tamanho M. Medidas da modelo: 1,67m de altura, 64cm de cintura, 95cm de quadril e 71cm de busto. 90% poliéster e 10% elastano.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- <div class="modal fade" id="siteModal02" tabindex="-1" role="dialog">
+      
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">Suspendisse tempor aliquet egestas</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                
+                <div class="col-6">
+                  <h5>Cursus magna</h5>
+                  <p>Morbi id tortor faucibus, scelerisque ipsum quis, egestas augue. Morbi felis justo, vestibulum eget commodo interdum, elementum et odio. Fusce condimentum massa non nisi tempor, vitae finibus leo fermentum. Duis bibendum nulla feugiat lacinia accumsan. Maecenas pulvinar vitae nunc sit amet accumsan. In euismod blandit tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas fringilla consequat libero, in efficitur massa.</p>
+                </div>
+                
+
+                <div class="col-6">
+                  <h5>Nunc odio</h5>
+                  <p>Vivamus at lacus vitae tortor porta aliquam. Nunc sit amet mi maximus, cursus nulla et, venenatis velit. Etiam at sapien eget purus porta sagittis. Pellentesque ut aliquam ex. Duis et aliquet orci. Donec eget velit eu justo hendrerit convallis sed eget odio. Suspendisse elementum luctus iaculis.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Nullam</button>
+          </div>
+          
+        </div>
+      </div>
+
+    </div> -->
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Script que faz funcionar o botão de ajuda 'popover' -->
+    <script>
+
+      $(function() {
+
+        $('[data-toggle="popover"]').popover()
+
+      })
+
+    </script>
+
+  </body>
+</html>
